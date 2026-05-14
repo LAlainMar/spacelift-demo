@@ -25,19 +25,19 @@ data "aws_ami" "ubuntu" {
 locals {
   instances = {
     instance1 = {
-      ami           = data.aws_ami.ubuntu.id
+      ami           = ami-091138d0f0d41ff90
       instance_type = "t2.micro"
     }
     instance2 = {
-      ami           = data.aws_ami.ubuntu.id
+      ami           = ami-091138d0f0d41ff90
       instance_type = "t2.micro"
     }
     instance3 = {
-      ami           = data.aws_ami.ubuntu.id
+      ami           = ami-091138d0f0d41ff90
       instance_type = "t2.micro"
     }
     instance4 = {
-      ami           = data.aws_ami.ubuntu.id
+      ami           = ami-091138d0f0d41ff90
       instance_type = "t2.micro"
     }
   }
